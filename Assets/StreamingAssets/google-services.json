@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1021218274896",
+    "firebase_url": "https://coupon-67155-default-rtdb.firebaseio.com",
+    "project_id": "coupon-67155",
+    "storage_bucket": "coupon-67155.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021218274896:android:2f0613b807d389a78e1b55",
+        "android_client_info": {
+          "package_name": "com.AUryeong.CouponSystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUX5ujsOg7i49lyhQcwsQkKDTNWW5nXKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
