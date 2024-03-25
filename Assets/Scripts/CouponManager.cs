@@ -75,9 +75,10 @@ public class CouponManager : SingletonBehavior<CouponManager>
     {
         const uint primeNumber = 16777619u;
         const uint offset = 2166136261u;
+        const string salt = "Alice";
 
         uint result = offset;
-        var stringBytes = Encoding.ASCII.GetBytes(origin);
+        var stringBytes = Encoding.ASCII.GetBytes(origin + salt);
         foreach (var value in stringBytes)
         {
             unchecked
